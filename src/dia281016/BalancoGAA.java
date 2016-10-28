@@ -9,9 +9,21 @@ import java.util.Scanner;
 public class BalancoGAA {
 
 	public BalancoGAA() {
-		int balanco = calcularBalanco();
+		int receita = receitas();
+		int despesa = despesas();
+		
+		int balanco = calcularBalanco(receita, despesa);
 		
 		System.out.println("O balanco do ano de actividade é de: " + balanco);
+		
+		if (balanco > 0) {
+			System.out.println("Balanco positivo");
+		} else if (balanco == 0) {
+			System.out.println("Balanco neutro");
+		} else {
+			System.out.println("Balanco negativo");				
+		} 
+		
 	}
 	
 	public int receitas() {
@@ -38,8 +50,8 @@ public class BalancoGAA {
 		return totalDespesas;			
 	}
 	
-	public int calcularBalanco() {
-		int balanco = receitas() - despesas();
+	public int calcularBalanco(int receita, int despesa) {
+		int balanco = receita - despesa;
 		
 		return balanco;
 	}
