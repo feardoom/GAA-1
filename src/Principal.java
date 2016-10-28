@@ -1,3 +1,4 @@
+import dia281016.InputOutputBasico;
 
 public class Principal {
 
@@ -6,6 +7,7 @@ public class Principal {
 	}
 
 	public static void main(String[] args) {
-		new ExercicioBalanco();
+//		new ExercicioBalanco();
+		new InputOutputBasico();
 	}
 }
