@@ -1,4 +1,7 @@
 
+/*
+ * Âmbito das variáveis: locais e globais 
+ */
 public class ExercicioBalanco {
 	int totalReceitas,
 		totalDespesas;

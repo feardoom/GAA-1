@@ -1,4 +1,5 @@
 import dia281016.InputOutputBasico;
+import dia281016.BalancoGAA;
 import dia281016.CalculadoraSimples;
 
 public class Principal {
@@ -10,6 +11,7 @@ public class Principal {
 	public static void main(String[] args) {
 //		new ExercicioBalanco();
 //		new InputOutputBasico();
-		new CalculadoraSimples();
+//		new CalculadoraSimples();
+		new BalancoGAA();
 	}
 }
