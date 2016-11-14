@@ -1,4 +1,6 @@
 import dia281016.InputOutputBasico;
+import dia021116.Ciclos;
+import dia021116.Condicionais;
 import dia281016.BalancoGAA;
 import dia281016.CalculadoraSimples;
 
@@ -12,6 +14,8 @@ public class Principal {
 //		new ExercicioBalanco();
 //		new InputOutputBasico();
 //		new CalculadoraSimples();
-		new BalancoGAA();
+//		new BalancoGAA();
+//		new Condicionais();
+		new Ciclos();
 	}
 }

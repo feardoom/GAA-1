@@ -3,7 +3,8 @@ package dia281016;
 import java.util.Random;
 
 /*
- * Random : V
+ * Random : Valor aleatório
+ * if : expressão condicional
  */
 public class AdivinhaNumero {
 	int escondido;
